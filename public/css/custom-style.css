@@ -1,0 +1,27 @@
+.login-app {
+    background-color: #222D32;
+    color: #fff;
+}
+
+.login-card {
+    background-color: #1A2226;
+    color: #fff;
+}
+.bg-sidebar {
+    background-color: #405189 !important;
+}
+.sidebar{
+    background-color: #405189 !important;
+}
+.text-sidebar{
+    color: #405189 !important;
+}
+.form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+}
+.btn:focus{
+    box-shadow: none;
+}
