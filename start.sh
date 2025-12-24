@@ -3,6 +3,9 @@
 # Run migrations
 php artisan migrate --force
 
+# Run seeders to create admin user
+php artisan db:seed --class=AdminUserSeeder --force
+
 # Cache config for production
 php artisan config:cache
 php artisan route:cache
