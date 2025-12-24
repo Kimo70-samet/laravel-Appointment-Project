@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# Create storage directories and set permissions
+mkdir -p storage/logs
+mkdir -p storage/framework/cache
+mkdir -p storage/framework/sessions
+mkdir -p storage/framework/views
+chmod -R 775 storage
+chmod -R 775 bootstrap/cache
+
 # Run migrations
 php artisan migrate --force
 
